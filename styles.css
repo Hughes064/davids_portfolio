@@ -206,7 +206,8 @@ h1.headline a {
 
 h3.project-name {
   text-transform: uppercase;
-  margin-top: 0px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 div.publications {
@@ -266,11 +267,15 @@ div.cv-pub ul.prof-exp-list li, div.cv-pres ul.prof-exp-list li {
   list-style-type: none;
 }
 
-ul.prof-exp-list {
+ul.prof-exp-list, h3.sub-headline {
   text-align: left;
   width: 63%;
   margin: 0 auto;
   padding: 0;
+}
+
+h3.sub-headline {
+  margin: 15px auto;
 }
 
 li.list-item {
